@@ -15,6 +15,10 @@ VALUES
 INSERT INTO USER (user_id, password, email, username, name, last_name, active)
 VALUES (3, '$2a$06$OAPObzhRdRXBCbk7Hj/ot.jY3zPwR8n7/mfLtKIgTzdJa4.6TwsIm', 'ana@mail.com', 'ana', 'Ana', 'Surname', 1);
 
+-- password in plaintext: "password"
+INSERT INTO USER (user_id, password, email, username, name, last_name, active)
+VALUES (4, '$2a$06$OAPObzhRdRXBCbk7Hj/ot.jY3zPwR8n7/mfLtKIgTzdJa4.6TwsIm', 'teste@gmail.com', 'teste', 'Bsna', 'Tesdte', 1);
+
 -- Roles
 INSERT INTO ROLE (role_id, role)
 VALUES (1, 'ROLE_ADMIN');
